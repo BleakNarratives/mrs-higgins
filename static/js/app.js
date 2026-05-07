@@ -1,4 +1,4 @@
-function openTab(tabName) {
+function openTab(event, tabName) {
     var i, tabContent, tabLinks;
     tabContent = document.getElementsByClassName("tab-content");
     for (i = 0; i < tabContent.length; i++) {
